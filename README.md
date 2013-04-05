@@ -8,7 +8,7 @@ Create a svg map of the USA using ruby
   gem install usamap
 
 
-## Usage
+## Example Usage
 
 ~~~.ruby
 require 'usamap'
@@ -24,6 +24,18 @@ stats['35049'] = 99 # 35049 is FIPS for Santa Fe, NM
 my_map = USAmap.new(stats, colors)
 puts my_map
 ~~~
+
+
+## Example Output
+
+
+![alt text](https://raw.github.com/wiki/salemine/usamap/nm_counties.png "Sample Map")
+
+
+
+
+
+
 
 ## Credits
 SVG Map:
