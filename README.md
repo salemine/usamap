@@ -5,7 +5,9 @@ Create a colorized svg map of the USA using ruby. Plot ranges and colors using F
 
 ## Installation
 
+~~~.ruby
   gem install usamap
+~~~
 
 
 ## Example Usage
