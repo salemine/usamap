@@ -1,7 +1,7 @@
 usamap
 ======
 
-Create a svg map of the USA using ruby
+Create a colorized svg map of the USA using ruby. Plot ranges and colors using FIPS coordinates for US counties.
 
 ## Installation
 
