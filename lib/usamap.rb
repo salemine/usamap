@@ -1,7 +1,6 @@
 require 'usa_counties_svg'
 
 class USAmap
-  attr_accessor :stats_h, :colors_h
   
   def initialize(stats_h = {}, colors_h = {})
     @stats_h, @colors_h = stats_h, colors_h
