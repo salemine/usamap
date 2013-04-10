@@ -6,8 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Create a colorized svg map of the USA by county using FIPS coordinates"
   s.authors     = ["salemine"]
   s.email       = 'info@salemine.com'
-  s.files       = ["lib/usamap.rb", "lib/usa_counties_svg.rb"]
-  s.homepage    =
-    'https://github.com/salemine/usamap'
+  s.files       = ["lib/usamap.rb", "lib/usa_counties_svg.rb", "README.md", "LICENSE.txt"]
+  s.homepage    = 'https://github.com/salemine/usamap'
 end
 
