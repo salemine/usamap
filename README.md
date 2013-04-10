@@ -45,3 +45,7 @@ http://commons.wikimedia.org/wiki/File:Usa_counties_large.svg
 FIPS Codes:
 http://en.wikipedia.org/wiki/FIPS_county_code
 
+
+## Inspiration
+http://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/
+
