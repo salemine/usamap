@@ -37,7 +37,7 @@ puts my_map
 
 
 
-## Credits
+## Credits/Resources
 SVG Map:
 http://commons.wikimedia.org/wiki/File:Usa_counties_large.svg
 
