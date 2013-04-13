@@ -1,4 +1,4 @@
-require 'usa_counties_svg'
+require File.join(File.dirname(__FILE__), 'usa_counties_svg')
 
 # @author salemine <info@salemine.com>
 class USAmap
