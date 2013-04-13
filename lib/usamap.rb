@@ -17,6 +17,8 @@ class USAmap
       colr = @colors_h.select { |range, hex| range.member?(val) }.values.first  
       css << ".c#{fips} {fill:#{colr}}\n"
     end
-    UsaCountiesSvg.svg.gsub!(/\/\*CSS insertion point\*\//, css)
+    svg = UsaCountiesSvg.svg
+    css.empty? ? svg : svg.gsub!(/\/\*CSS insertion point\*\//, "/*CSS insertion point*/\n#{css}") 
   end
+    
 end
